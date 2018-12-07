@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.binglian.mapper.ArticleMapper" >
+  <resultMap id="BaseResultMap" type="com.binglian.pojo.Article" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="article_name" property="articleName" jdbcType="VARCHAR" />
+    <result column="article_category" property="articleCategory" jdbcType="VARCHAR" />
+    <result column="article_summary" property="articleSummary" jdbcType="VARCHAR" />
+    <result column="article_click" property="articleClick" jdbcType="INTEGER" />
+    <result column="article_time" property="articleTime" jdbcType="TIMESTAMP" />
+    <result column="article_content" property="articleContent" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  
+  <delete id="deleteById">
+  	delete from article where id=#{id}
+  </delete>
+  
+  <select id="findById" parameterType="int" resultMap="BaseResultMap">
+  	select * from article where id=#{id}
+  </select>
+
+  <update id="updateById" parameterType="com.binglian.pojo.Article">
+        update article set 
+        article_name=#{articleName},
+        article_category=#{articleCategory},
+        article_summary=#{articleSummary},
+        article_content=#{articleContent},
+        article_Time=#{articleTime}
+        where id=#{id}
+    </update>
+ 
+</mapper>
