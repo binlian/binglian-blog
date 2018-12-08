@@ -1,7 +1,7 @@
 # binglian-bolg
 
 首页照片：
- ![image]https://github.com/binlian/binglian-bolg/blob/master/picture/首页.png
+ ![image](https://github.com/binlian/binglian-bolg/blob/master/picture/首页.png)
 
 开发环境
 
