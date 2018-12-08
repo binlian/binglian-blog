@@ -1,5 +1,7 @@
 # binglian-bolg
 
+首页照片：
+ ![image]https://github.com/binlian/binglian-bolg/blob/master/%E6%BC%94%E7%A4%BA%E5%9B%BE/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E9%A6%96%E9%A1%B5.png
 
 开发环境
 
