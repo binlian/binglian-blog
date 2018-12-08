@@ -3,6 +3,12 @@
 首页照片：
  ![image](https://github.com/binlian/binglian-bolg/blob/master/picture/首页.png)
 
+发布文章：
+ ![image](https://github.com/binlian/binglian-bolg/blob/master/picture/发布文章.png)
+ 
+ 文章列表：
+ ![image](https://github.com/binlian/binglian-bolg/blob/master/picture/文章列表.png)
+ 
 开发环境
 
 核心框架:Spring freemarker+Springboot+ElasticSearch+Security
